@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+body {
+    background-color: #fcfce0;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+
+}
+h1{
+    font-size: 100px;
+    color: orange;
+    text-shadow: sienna 0.1em 0.1em 0.1em ;
+    margin: 0;
+
+}
+
+h3{
+    width: 250px;
+    font-size: 40px;
+    color: #10683c;
+    letter-spacing: 5px;
+    text-shadow: dimgray 0 0 0.1em;
+    margin: 10%;
+    margin-left: 25%;
+}
+.clear {
+    clear: both;
+}
+
+.content {
+    width: 700px;
+    background-color: #f1f1b465;
+    margin-left: 28%;
+    display: table;
+    border-radius: 10px;
+}
+
+.content .valor {
+    max-width: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.col1 {
+    width: 490px;
+    float: left;
+    margin-top: 10px;
+}
+
+.col2 {
+    width: 150px;
+    margin: 10px;
+    margin-right: 50px;
+    margin-left: 3px;
+    float: right;
+}
+
+.col2 img {
+    width: 145px;
+    border-radius: 0 0 10px 10px;
+}
+.imc{
+    font-size: 100px;
+}
+
+
+
+.botao{
+    font-family: 'Chewy', cursive;
+    font-size: 20px;
+    color:#000000;
+    background:#f5f5f5;
+    border:1px solid #bbb;
+    text-shadow:0px 1px 0px #fff;
+    box-shadow:0px 1px 10px #d1cfd1;
+    -moz-box-shadow:0px 1px 10px #d1cfd1;
+    -webkit-box-shadow:0px 1px 10px #d1cfd1;
+    border-radius:10px 10px 10px 10px;
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px 10px 10px 10px;
+    width:100px;
+    height: 40px;
+    cursor:pointer;
+    margin:0;
+}
+.botao:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+}
+    
+@media (max-width: 796px){
+    .content{
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 550px){
+    h3{
+        margin: 10%;
+        margin-left: 10%;
+    }
+    .content {
+        width: 500px;
+        margin-left: 1%;
+    }
+    
+    .content .valor {
+        max-width: 100px;
+        text-align: center;
+        font-size: 30px;
+        margin: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+    
+    .col1 {
+        width: 300px;
+        float: left;
+        margin-top: 10px;
+    }
+    
+    .col2 {
+        width: 150px;
+        margin: 1%;
+        margin-right: 1%;
+        float: right;
+    }
+}
+
+@media (max-width: 365px){
+    body{
+        margin-left: 0;
+    }
+
+    h3{
+        width: 200;
+        margin: 0;
+        margin-left: 0;
+        font-size: 25px;
+    }
+    
+    .content{
+        width: 350px;
+    }
+    .col1 {
+        width: 240px;
+        float: left;
+        margin-top: 10px;
+    }
+    
+    .col2 {
+        width: 100px;
+        margin: 1%;
+        margin-right: 1%;
+        float: right;
+    }
+    .col2 img {
+        width: 95px;
+    }
+
+    .imc{
+        font-size: 50px;
+    }
+}
